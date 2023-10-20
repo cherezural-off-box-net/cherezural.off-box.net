@@ -1,0 +1,103 @@
+@charset "utf-8";
+body  {
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    background-repeat: repeat-y;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.header {
+    background-color: #036EB8;
+    left: 0px;
+}
+.nav.nav-pills .nav-item .nav-link {
+    color: #FFFFFF;
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+    font-weight: bolder;
+}
+.container:first-of-type {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.nav.nav-pills .nav-item {
+    background-color: #036EB8;
+    border: 3px solid #FFFFFF;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nav.nav-pills .nav-item .nav-link:hover {
+    color: #FFF000;
+}
+
+
+.nav.nav-pills {
+    background-color: #036EB8;
+}
+.nontra   {
+    opacity: 1;
+    background-color: rgba(255,255,255,0.7);
+    font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, sans-serif;
+    font-style: normal;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+
+h1 {
+    color: #000000;
+    text-align: center;
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+    font-weight: bolder;
+}
+h2 {
+    font-family: YuMincho, "Yu Mincho", "Hiragino Mincho ProN", serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.btn {
+    background-color: #FFFDFD;
+    border: 2pt solid #000000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.btn:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+    text-decoration: none;
+}
+body footer {
+    background-color: #4D4D4D;
+}
+body footer a {
+    color: #FFFDFD;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+body footer a:hover  {
+    color: #FFFDFD;
+    text-decoration: underline;
+}
+.twitter {
+    height: 3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #FFFFFF;
+}
+.twitter:hover {
+    height: 3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #2D00FF;
+}
