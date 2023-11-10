@@ -66,6 +66,10 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 }
+.doublebtn {
+    display: inline-block;
+}
+
 
 
 .btn:hover {
@@ -76,6 +80,11 @@ h2 {
 body footer {
     background-color: #4D4D4D;
 }
+.doublebtndiv {
+    text-align: center;
+
+}
+
 body footer a {
     color: #FFFDFD;
     margin-left: 2em;
@@ -100,4 +109,19 @@ body footer a:hover  {
     padding-left: 10px;
     padding-right: 10px;
     border: 2px solid #2D00FF;
+}
+.nontra.offset-lg-0.col-lg-5 p #boothnumber {
+    color: #F10003;
+    font-weight: bold;
+}
+.nontra.offset-lg-0.col-lg-5 p #gmdate {
+    color: #1E00EB;
+    font-weight: bolder;
+}
+.btnlink   {
+    color: #000000;
+}
+.btnlink:hover  {
+    color: #FFFFFF;
+    text-decoration: none;
 }
